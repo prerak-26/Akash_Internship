@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('back.png');
+    background-repeat:inherit;
+}
+.main
+{
+    margin-top: 50px;
+    margin-left: 500px;
+    line-height: 1.6;
+}
+h2
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.reg
+{
+    background-color: rgba(0,0,0,0.3);
+    height:400px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: medium;
+    border-radius: 50px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.6);
+}
+.reg form #subm
+{
+    background-color: black;
+    color: white;
+    border: 0px;
+    width: 80px;
+    height: 30px;
+    margin-left: 160px;
+}
+input#name
+{
+    width: 280px;
+    outline: 0px;
+    padding: 5.5px;
+    border: 1px solid #000;
+    border-radius: 4.5px;
+}
